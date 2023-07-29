@@ -39,6 +39,13 @@ h1 {
     margin-bottom: 10px;
 }
 
+h2 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    margin: 0px;
+}
+
 .website {
     display: flex;
     flex: 1;
@@ -69,4 +76,35 @@ button {
     border-radius: 5px;
 }
 
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
 
+.images {
+    display:flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+}
+
+.resource {
+    text-align: center;
+    line-height: 25px;
+    font-size: 18px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    gap: 30px;
+}
