@@ -63,6 +63,7 @@ h2 {
     flex-shrink: 1;
     height: 100%;
     width: 100%;
+    border-radius: 0px;
 }
 
 button {
@@ -79,10 +80,29 @@ button {
 .quote {
     background-color: #E5E7EB;
     display: flex;
-    flex: 1;
+    flex-flow: column wrap;
     justify-content: center;
     align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    color: #1F2937;
+    max-width: auto;
 }
+
+.quote .text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+}
+
+h4 {
+    margin-left: auto;
+    text-align: right;
+    font-weight: bold;
+}
+
 
 .images {
     display:flex;
@@ -91,10 +111,14 @@ button {
     justify-content: center;
 }
 
+img {
+    border-radius: 15px;
+}
+
 .resource {
     text-align: center;
-    line-height: 25px;
-    font-size: 18px;
+    line-height: 30px;
+    font-size: 20px;
 }
 
 .information {
